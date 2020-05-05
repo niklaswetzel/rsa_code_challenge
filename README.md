@@ -5,7 +5,7 @@ Your friend Jonas is deeply worried. He strictly obeys the COVID-19 precautionar
 He decides that, from now on, he will only communicate in a secure way.
 After putting on his tinfoil hat, he contacts you via [fakeboook messenger](https://www.quora.com/How-secure-is-Facebook-Messenger).
 
-He persuades you to encrypt all text messages with the [RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem\)).
+He persuades you to encrypt all text messages with the [RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)).
 To have a common language, you and your friend agree on the specifications described in the following exercises.
 
 For encryption you gave Jonas your *alphabet length* and *public key* `296486947843193941439192679364878082685665921322009083714907` and `65537`.
