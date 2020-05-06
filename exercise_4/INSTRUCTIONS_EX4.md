@@ -16,26 +16,28 @@ The class has the methods `encrypt` and `decrypt`, which implement the RSA
 # Example
 ```
 In:
-rsa = RSA(4,14)
-multiple
+rsa = RSA(61, 53, 17)
+print(rsa.alphabet_length, rsa.public_key, rsa.private_key)
 
 Out:
-28
+(3233, 17, 413)
 
 In:
-divisor = gcd(456,232)
-divisor
+rsa = RSA(61, 53, 17)
+cipher = rsa.encrypt(65)
+cipher
 
 Out:
-8
+2790
 
 In:
-solution = extended_euclidean(456,232)
-solution
+rsa = RSA(61, 53, 17)
+plain = rsa.decrypt(2790)
+plain
 
 Out:
-(8, -1, 2)
+65
 ```
 
 # Explanation
-`gcd(456,232) = 8` and `8 = -456 + 2*232`.
+`2790 = 65**17 % 3233` and `65 = 2790**413 % 3233`.
