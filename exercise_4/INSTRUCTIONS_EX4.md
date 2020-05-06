@@ -5,7 +5,7 @@ The class constructor has the arguments `prime_0, prime_1` and `public_key`,
 which are two prime numbers and a valid public key.
 It initialises the attributes `alphabet_len, public_key, private_key`,
 which are respectively the *alphabet length*, the *public key* and the *private key*
-of the [RSA algorithm](https://en.wikipedia.org/wiki/RSA_(cryptosystem\)).
+of the [RSA algorithm](https://en.wikipedia.org/wiki/RSA_(cryptosystem)).
 
 The class has the methods `encrypt` and `decrypt`, which implement the RSA
 [en-](https://en.wikipedia.org/wiki/RSA_(cryptosystem)#Encryption) and
