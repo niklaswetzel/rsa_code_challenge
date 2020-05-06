@@ -1,6 +1,6 @@
 import unittest
 
-from exercise_4.rsa import RSA, create_private_key
+from exercise_4.rsa import RSA
 
 
 class TestRSA(unittest.TestCase):
@@ -113,7 +113,7 @@ class TestRSA(unittest.TestCase):
         print(f'Out[9]: {my_res}')
         self.assertEqual(my_res, cor_res)
 
-    # decrypt tests
+    # tests decrypt 
     def test_10(self):
         self.rsa = RSA(61, 53, 17)
         my_res = self.rsa.decrypt(2790)
